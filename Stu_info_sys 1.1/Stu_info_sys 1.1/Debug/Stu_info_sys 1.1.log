@@ -1,0 +1,6 @@
+﻿  Stu_system.cpp
+p:\code\c++\stu_info_sys 1.1\stu_info_sys 1.1\stu_system.cpp(131): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 参见“getch”的声明
+p:\code\c++\stu_info_sys 1.1\stu_info_sys 1.1\stu_system.cpp(640): warning C4715: “select_stu_by_num”: 不是所有的控件路径都返回值
+  Stu_info_sys 1.1.vcxproj -> P:\Code\C++\Stu_info_sys 1.1\Debug\Stu_info_sys 1.1.exe
+  Stu_info_sys 1.1.vcxproj -> P:\Code\C++\Stu_info_sys 1.1\Debug\Stu_info_sys 1.1.pdb (Full PDB)
