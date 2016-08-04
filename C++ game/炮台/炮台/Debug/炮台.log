@@ -1,0 +1,16 @@
+﻿  Game_paotai.cpp
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(464): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(490): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(512): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(534): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(556): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(581): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(609): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(624): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(625): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(627): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(638): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(649): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive\onedrive_pc\`13 的文档\github\code collection\c++ game\炮台\炮台\game_paotai.cpp(660): warning C4018: “<”: 有符号/无符号不匹配
+  炮台.vcxproj -> D:\Onedrive\OneDrive_PC\`13 的文档\GitHub\Code collection\C++ game\炮台\Debug\炮台.exe
+  炮台.vcxproj -> D:\Onedrive\OneDrive_PC\`13 的文档\GitHub\Code collection\C++ game\炮台\Debug\炮台.pdb (Full PDB)
