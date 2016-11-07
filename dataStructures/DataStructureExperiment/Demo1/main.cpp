@@ -1,9 +1,10 @@
 #include <iostream>
+#include <stdlib.h>
+#include <malloc.h>
 
-using namespace std;
 
 /** 数据结构实验-章1
- * author : @`13 (侯捷 140420227)
+ * author : @`13
  * time   : 2016年11月5日
  * */
 
@@ -257,5 +258,7 @@ class monkeyKing2
 
 int main(void)
 {
-
+    cout<<"asdad:"<<endl;
+    JosephForArray m;
+    m.solution(1,3);
 }
