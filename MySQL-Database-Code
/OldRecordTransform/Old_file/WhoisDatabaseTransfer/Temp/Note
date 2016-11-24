@@ -1,0 +1,90 @@
+.3服务器上数据表格式
+========================================================================
+16项
+
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,                             X
+  `domain` varchar(255) NOT NULL COMMENT '域名名称',
+  `flag` int(11) DEFAULT NULL,                                                  需要转换
+  `ip` varchar(20) DEFAULT NULL,                                                X
+  `top_whois_server` varchar(50) DEFAULT NULL COMMENT '顶级whois服务器',
+  `sec_whois_server` varchar(50) DEFAULT NULL COMMENT '二级whois服务器',
+  `reg_name` varchar(255) DEFAULT NULL COMMENT '注册人姓名',
+  `reg_email` varchar(255) DEFAULT NULL COMMENT '注册人联系邮箱',
+  `reg_phone` varchar(50) DEFAULT NULL COMMENT '注册人联系电话',
+  `org_name` varchar(255) DEFAULT NULL,
+  `creation_date` varchar(255) DEFAULT NULL,
+  `expiration_date` varchar(255) DEFAULT NULL,
+  `updated_date` varchar(255) DEFAULT NULL,
+  `domain_details` text COMMENT '域名whois详细信息',
+  `insert_time` datetime DEFAULT NULL COMMENT '该条记录插入时间',                 需要转换
+  `tld` varchar(45) DEFAULT NULL,
+
+
+.249服务器上数据表格式
+========================================================================
+20
+
+  `id` int(11) NOT NULL AUTO_INCREMENT,                                     重新计算
+  `domain_hash` bigint(20) NOT NULL,
+  `domain` varchar(255) NOT NULL,
+  `tld` varchar(255) NOT NULL,                                              需要生成
+  `flag` int(11) NOT NULL DEFAULT '-100',                                   需要转换
+  `domain_status` varchar(10000) DEFAULT NULL,                              需要生成
+  `sponsoring_registrar` varchar(255) DEFAULT NULL,
+  `top_whois_server` varchar(255) DEFAULT NULL,
+  `sec_whois_server` varchar(255) DEFAULT NULL,
+  `reg_name` varchar(255) DEFAULT NULL,
+  `reg_phone` varchar(255) DEFAULT NULL,
+  `reg_email` varchar(255) DEFAULT NULL,
+  `org_name` varchar(255) DEFAULT NULL,
+  `name_server` text,
+  `creation_date` varchar(255) DEFAULT NULL,                                需要转换
+  `expiration_date` varchar(255) DEFAULT NULL,                              需要转换
+  `updated_date` varchar(255) DEFAULT NULL,                                 需要转换
+  `insert_time` datetime DEFAULT NULL,                                      需要转换
+  `details` text,
+  `whois_hash` bigint(20) DEFAULT NULL,                                     需要生成
+
+
+
+  domain_status
+  =======================
+    'ADDPERIOD': '1',
+    'AUTORENEWPERIOD': '2',
+    'INACTIVE': '3',
+    'OK': '4',
+    'PENDINGCREATE': '5',
+    'PENDINGDELETE': '6',
+    'PENDINGRENEW': '7',
+    'PENDINGRESTORE': '8',
+    'PENDINGTRANSFER': '9',
+    'PENDINGUPDATE': '10',
+    'REDEMPTIONPERIOD': '11',
+    'RENEWPERIOD': '12',
+    'SERVERDELETEPROHIBITED': '13',
+    'SERVERHOLD': '14',
+    'SERVERRENEWPROHIBITED': '15',
+    'SERVERTRANSFERPROHIBITED': '16',
+    'SERVERUPDATEPROHIBITED': '17',
+    'TRANSFERPERIOD': '18',
+    'CLIENTDELETEPROHIBITED': '19',
+    'CLIENTHOLD': '20',
+    'CLIENTRENEWPROHIBITED': '21',
+    'CLIENTTRANSFERPROHIBITED': '22',
+    'CLIENTUPDATEPROHIBITED': '23',
+    # RRP
+    'ACTIVE': '24',
+    'REGISTRYLOCK': '25',
+    'REGISTRARLOCK': '26',
+    'REGISTRYHOLD': '27',
+    'REGISTRARHOLD': '28',
+
+    # 'REDEMPTIONPERIOD': '29', 重复
+    # 'PENDINGRESTORE': '30', 重复
+    # 'PENDINGDELETE': '31', 重复
+
+    'NOTEXIST': '29',  # 域名不存在
+    'NOSTATUS': '30',  # 无状态值
+
+
+    然
